@@ -17,6 +17,9 @@
   font-size: 2rem;
   font-family: "Dancing Script", cursive;
   margin-top: 2rem;
+  color: lightgoldenrodyellow;
+  position: absolute;
+  margin-left: 192px;
 }
 
 li {
@@ -36,9 +39,9 @@ ul {
   margin-left: 0;
   font-size: 1rem;
 }
-div:hover {
-  /* background-color: rgb(71, 255, 71); */
-}
+/* div:hover {
+  /* background-color: rgb(71, 255, 71);} */
+  */
 
 #logo:hover {
   background-color: rgb(222, 237, 241);
@@ -46,7 +49,15 @@ div:hover {
 }
 
 #logo {
-  margin-left: -12px;
-  margin-top: -106px;
-  float: left;
+ filter: invert(1);
+ position: absolute;
+ margin-top: 0;
+ z-index: -1;
+ margin-left: 0;
+ float: left;
+}
+.video{
+  object-fit: cover;
+  height: 100vh;
+  width: 100%;
 }
