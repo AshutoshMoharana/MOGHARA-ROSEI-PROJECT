@@ -15,6 +15,7 @@
   background: black;
   z-index: 2;
   color: white;
+  transition: 1.5s;
 }
 .showcase.active {
   right: 300px;
